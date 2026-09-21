@@ -1,0 +1,82 @@
+# meowlermann.github.io — raíz del dominio.
+# Google y el resto de buscadores solo leen el robots.txt de la raíz del host,
+# nunca el de un subdirectorio: por eso este fichero vive aquí y no dentro de
+# /boe-digest/, donde sería puramente decorativo.
+
+User-agent: *
+Allow: /
+
+# Rastreadores de modelos de lenguaje. Se permiten de forma explícita: el
+# contenido de BOE Digest procede del Boletín Oficial del Estado y de los
+# boletines de las Cortes, es información pública, y que un asistente pueda
+# leerla y citarla con enlace a la fuente es justamente el objetivo.
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: DuckAssistBot
+Allow: /
+
+User-agent: YouBot
+Allow: /
+
+User-agent: Diffbot
+Allow: /
+
+User-agent: Timpibot
+Allow: /
+
+User-agent: ia_archiver
+Allow: /
+
+Sitemap: https://meowlermann.github.io/boe-digest/sitemap.xml

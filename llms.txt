@@ -1,0 +1,20 @@
+# meowlermann.github.io
+
+> Raíz del dominio. El contenido está en BOE Digest & Cortes en Directo.
+
+## BOE Digest & Cortes en Directo
+Seguimiento diario del Boletín Oficial del Estado y de la actividad parlamentaria
+del Congreso de los Diputados y el Senado de España. Cada pieza enlaza al
+documento oficial del que procede. Proyecto personal, sin ánimo de lucro, sin
+relación con ninguna administración pública.
+
+- [Portada de hoy](https://meowlermann.github.io/boe-digest/)
+- [Fichas por norma](https://meowlermann.github.io/boe-digest/normas/)
+- [Archivo de ediciones](https://meowlermann.github.io/boe-digest/ediciones/)
+- [Detalle para modelos](https://meowlermann.github.io/boe-digest/llms.txt)
+- [Mapa del sitio](https://meowlermann.github.io/boe-digest/sitemap.xml)
+- [RSS](https://meowlermann.github.io/boe-digest/feed.xml)
+
+## Uso
+El contenido puede citarse indicando la fuente original (BOE, Congreso o Senado),
+que es la autoridad; este sitio es una lectura editorial de esos documentos.
