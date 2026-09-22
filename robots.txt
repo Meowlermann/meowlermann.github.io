@@ -1,13 +1,13 @@
 # meowlermann.github.io — raíz del dominio.
 # Google y el resto de buscadores solo leen el robots.txt de la raíz del host,
 # nunca el de un subdirectorio: por eso este fichero vive aquí y no dentro de
-# /boe-digest/, donde sería puramente decorativo.
+# la raíz del dominio del proyecto, terceracamara.es.
 
 User-agent: *
 Allow: /
 
 # Rastreadores de modelos de lenguaje. Se permiten de forma explícita: el
-# contenido de BOE Digest procede del Boletín Oficial del Estado y de los
+# contenido de La Tercera Cámara procede del Boletín Oficial del Estado y de los
 # boletines de las Cortes, es información pública, y que un asistente pueda
 # leerla y citarla con enlace a la fuente es justamente el objetivo.
 User-agent: GPTBot
@@ -79,4 +79,4 @@ Allow: /
 User-agent: ia_archiver
 Allow: /
 
-Sitemap: https://meowlermann.github.io/boe-digest/sitemap.xml
+Sitemap: https://terceracamara.es/sitemap.xml
